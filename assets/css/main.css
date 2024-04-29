@@ -98,7 +98,8 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		/* color: #a2a2a2; */
+		color: #313131;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -122,7 +123,8 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #787878;
+		/* color: #787878; */
+		color: #313131;
 		font-weight: 400;
 	}
 
@@ -135,7 +137,8 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		/* color: #787878; */
+		color: #313131;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2004,6 +2007,8 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		color: #616161;
+
 	}
 
 		.icon:before {
@@ -2446,8 +2451,10 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
-		color: #787878 !important;
+		/* border: solid 3px #efefef; */
+		border: solid 3px #616161;
+		/* color: #787878 !important; */
+		color: #313131 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2615,6 +2622,9 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			width: 100%;
+			border-right: solid 2px #e4e4e4;
+			/* margin: 0 4em 0 0; */
+			padding: 0 4em 0 0;
 		}
 
 		#header > .inner {
@@ -2622,7 +2632,7 @@ input, select, textarea {
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
-			margin: 0 0 2em 0;
+			margin: 0 0 0 0;
 		}
 
 		#header strong, #header b {
@@ -2630,11 +2640,12 @@ input, select, textarea {
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #313131;
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			/* color: rgba(255, 255, 255, 0.5); */
+			color: #313131;
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2652,7 +2663,8 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			/* color: rgba(255, 255, 255, 0.4); */
+			color: #616161;
 		}
 
 	#footer .copyright {
@@ -2686,12 +2698,13 @@ input, select, textarea {
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
-		padding: 8em 4em 4em 4em;
+		padding: 8em 4em 4em 0;
 		width: calc(100% - 35%);
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			/* border-top: solid 2px #efefef; */
+			border-top: solid 2px #e4e4e4;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
@@ -3030,6 +3043,7 @@ input, select, textarea {
 			#main {
 				margin-left: 30%;
 				max-width: none;
+				/* padding: 6em 3em 3em 3em; */
 				padding: 6em 3em 3em 3em;
 				width: calc(100% - 30%);
 			}
